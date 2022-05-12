@@ -7,11 +7,17 @@ ul{
     width: 100%;
     margin: -10px;
 
+
 }
 .job{
     font-family: "Book Antiqua";
     margin-top: 50px;
     margin-bottom: 40px;
+}
+
+.title{
+    font-family: Calibri;
+    font-size: x-large;
 }
 
 .summary{
@@ -66,4 +72,15 @@ hr.solid1 {
 
 section{
     margin-left: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid darkslategray;
 }
