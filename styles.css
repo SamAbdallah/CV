@@ -1,41 +1,69 @@
 ul{
     list-style-type: none;
-    margin:-10px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    height: 800px;
-    width: 350px;
+    height: 150px;
+    width: 100%;
+    margin: -10px;
 
 }
+.job{
+    font-family: "Book Antiqua";
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.summary{
+    font-size: large;
+    font-family: Calibri;
+    color: black;
+
+}
+
+.Prof{
+    font-size: large;
+    font-family: Calibri;
+}
+
 img{
-    width: 60%;
-    margin-top:30px;
+    width: 120px;
     margin-left: 15px;
-    border-radius: 50%;
+    border-radius: 70%;
+    margin-top: 15px;
 }
 
 
 
 li  {
+    margin-top:50px ;
+    margin-right: 80px;
     list-style-type: none;
     display: block;
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 16px 16px;
     text-decoration: none;
-    float: bottom;
+    float: right;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: left;
+   display: block;
+   color: white;
+   text-align: left;
     margin: -15px;
-  padding: 14px 16px;
-  text-decoration: none;
+   padding: 14px 16px;
+   text-decoration: none;
 }
 
-li:hover {
-  background-color: darkslategray;
+.bio li:hover {
+   background-color: darkslategray;
+}
+
+hr.solid1 {
+   border-top: 3px solid black;
+}
+
+section{
+    margin-left: 20px;
 }
