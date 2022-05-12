@@ -1,12 +1,10 @@
 ul{
     list-style-type: none;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
     height: 150px;
     width: 100%;
     margin: -10px;
-
 
 }
 .job{
@@ -54,20 +52,20 @@ li  {
 }
 
 li a {
-   display: block;
-   color: white;
-   text-align: left;
+    display: block;
+    color: white;
+    text-align: left;
     margin: -15px;
-   padding: 14px 16px;
-   text-decoration: none;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .bio li:hover {
-   background-color: darkslategray;
+    background-color: darkslategray;
 }
 
 hr.solid1 {
-   border-top: 3px solid black;
+    border-top: 3px solid black;
 }
 
 section{
@@ -75,12 +73,14 @@ section{
 }
 
 table {
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 50%;
 }
 
 th, td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid darkslategray;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid darkslategray;
 }
+
+tr:hover {background-color: darkslategray;}
