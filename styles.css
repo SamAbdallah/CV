@@ -1,7 +1,7 @@
 ul{
     list-style-type: none;
     padding: 0;
-    background-color: #333;
+    background-color:#333;
     height: 150px;
     width: 100%;
     margin: -10px;
@@ -93,3 +93,16 @@ th, td {
 }
 
 tr:hover {background-color: darkslategray;}
+
+
+.skills th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px white;
+
+}
+
+.skills th:hover{
+     transition: ease 0.2s;
+     transform: scale(1.3);
+}
