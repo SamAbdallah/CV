@@ -118,3 +118,38 @@ tr:hover {background-color: darkslategray;}
   margin-top: 40px;
   text-align: center;
 }
+
+
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background: white;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 11%;
+}
+
+@media (max-width: 900px) {
+    .row{
+        flex-direction: column;
+    }
+
+}
+
+
+
